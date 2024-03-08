@@ -1,5 +1,5 @@
 
-Lấy groups của user a1
+Lay groups cua user a1
 GET /conversations-rest-controller?username=a1
 response body
 [
@@ -15,7 +15,7 @@ response body
     }
 ]
 
-Tạo group
+Tao group
 POST /conversations-rest-controller
 request body
 {
@@ -58,7 +58,7 @@ response body
     ]
 }
 
-Lấy users theo group id
+Lay users theo group id
 GET /conversations-rest-controller?usersConversationId=1
 response body
 [
